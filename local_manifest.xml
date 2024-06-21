@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="ALprjkt" fetch="https://github.com/ALprjkt" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="ALprjkt" revision="df" />
+        <project path="vendor/xiaomi/ysl" name="vendor_xiaomi_ysl" remote="ALprjkt" revision="13" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="ALprjkt" revision="ten" />
+	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ALprjkt" revision="13" />
+	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="ALprjkt" revision="13" />
+
+</manifest>
