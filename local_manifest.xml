@@ -3,7 +3,6 @@
 
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/ALprjkt" />
-        <remote name="LOS" fetch="https://github.com/LineageOS" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="df" />
@@ -11,7 +10,7 @@
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="clo" />
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="AL" revision="13" />
 	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="AL" revision="13" />
-	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="13" />
 	<project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="AL" revision="main" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" />
