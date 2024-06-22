@@ -14,5 +14,6 @@
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="13" />
 	<project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="AL" revision="main" />
+	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" />
 
 </manifest>
