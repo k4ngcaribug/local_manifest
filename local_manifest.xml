@@ -13,7 +13,7 @@
 	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="AL" revision="14" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-21" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" />
-	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="14" />
+	<project path="vendor/lineage-priv/keys" name="vendor_extra" remote="AL" revision="14" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
 
 </manifest>
