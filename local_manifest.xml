@@ -8,9 +8,9 @@
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="bliss" />
         <project path="vendor/xiaomi/ysl" name="vendor_xiaomi_ysl" remote="AL" revision="13" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="main" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="ysl" revision="caf" />
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ysl" revision="13" />
-	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="AL" revision="13" />
+	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="ysl" revision="13" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="13" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" />
