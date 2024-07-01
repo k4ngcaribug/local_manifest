@@ -5,6 +5,10 @@
         <remote name="AL" fetch="https://github.com/ALprjkt" />
 	<remote name="ysl" fetch="https://github.com/Redmi-S2-Y2-Resources" />
 	<remote name="gl" fetch="https://gitlab.com/Panchajanya1999" />
+
+	<! -- Mod -->
+	<remove-project name=" BlissRoms/platform_frameworks_base" />
+        <project path="frameworks/base" name=" platform_frameworks_base" remote="AL" revision="typhoon" clone-depth="1" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="bliss" clone-depth="1" />
