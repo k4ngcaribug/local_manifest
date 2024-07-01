@@ -4,7 +4,7 @@
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/ALprjkt" />
 	<remote name="ysl" fetch="https://github.com/Redmi-S2-Y2-Resources" />
-	<remote name="gl" fetch="https://gitlab.com/Panchajanya1999/azure-clang.git" />
+	<remote name="gl" fetch="https://gitlab.com/Panchajanya1999" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="bliss" clone-depth="1" />
@@ -15,6 +15,6 @@
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="13" clone-depth="1" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
-	<project path="prebuilts/clang/host/linux-x86/clang-aosp" name="azure-clang" remote="gl" revision="main" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="gl" revision="main" clone-depth="1" />
 
 </manifest>
