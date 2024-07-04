@@ -6,6 +6,5 @@
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="qassa" />
-	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" />
 
 </manifest>
