@@ -9,13 +9,13 @@
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="ysl" revision="df" clone-depth="1" />
         <project path="vendor/xiaomi/ysl" name="vendor_xiaomi_ysl" remote="ysl" revision="14" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="main" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="13" clone-depth="1" />
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ysl" revision="df" clone-depth="1" />
 	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="ysl" revision="14" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-21" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
 	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
-	<project path="prebuilts/clang/host/linux-x86/clang-azure" name="clang" remote="gl" revision="clang-r510928" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-azure" name="clang" remote="gl" revision="clang-15" clone-depth="1" />
 	<project path="vendor/fingerprint/opensource/interfaces" name="android_vendor_fingerprint_opensource_interfaces" remote="AL" revision="lineage-21" />
 
 </manifest>
