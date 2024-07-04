@@ -4,7 +4,6 @@
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/ALprjkt" />
 	<remote name="ysl" fetch="https://github.com/Redmi-S2-Y2-Resources" />
-	<remote name="gl" fetch="https://gitlab.com/LeCmnGend" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="ysl" revision="df" clone-depth="1" />
@@ -15,7 +14,6 @@
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-21" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
 	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
-	<project path="prebuilts/clang/host/linux-x86/clang-azure" name="clang" remote="gl" revision="clang-15" clone-depth="1" />
 	<project path="vendor/fingerprint/opensource/interfaces" name="android_vendor_fingerprint_opensource_interfaces" remote="AL" revision="lineage-21" />
 
 </manifest>
