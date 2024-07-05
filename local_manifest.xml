@@ -3,11 +3,12 @@
 
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/ALprjkt" />
+        <remote name="cl" fetch="https://gitlab.com/LeCmnGend" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="qassa" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="AL" revision="main" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="13" />
-
+        <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="clang" remote="cl" revision="clang-r510928" />
 
 </manifest>
