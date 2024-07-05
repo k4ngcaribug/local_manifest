@@ -2,8 +2,8 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="AL" fetch="https://github.com/ALprjkt" />
-        <remote name="cl" fetch="https://gitlab.com/LeCmnGend" />
+        <remote name="AL" fetch="https://github.com/ALprjkt" clone-depth="1" />
+        <remote name="cl" fetch="https://gitlab.com/LeCmnGend" clone-depth="1" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="qassa" />
