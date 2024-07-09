@@ -13,6 +13,7 @@
 	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="ysl" revision="13" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="13" clone-depth="1" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" clone-depth="1" />
 
 	 <!-- framework_base_mod -->
  	<remove-project name="LineageOS/android_frameworks_base" />
