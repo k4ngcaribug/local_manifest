@@ -7,6 +7,6 @@
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="qassa" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="AL" revision="main" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="10" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="13" />
 
 </manifest>
