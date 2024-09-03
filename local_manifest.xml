@@ -3,7 +3,7 @@
 
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/ALprjkt" />
-	<remote name="ysl" fetch="https://github.com/Redmi-S2-Y2-Resources" />
+	<remote name="anandhan" fetch="https://gitlab.com/anandhan07/" clone-depth="1" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="13" clone-depth="1" />
@@ -27,7 +27,7 @@
         <remove-project name="LineageOS/android_frameworks_av" />
         <project path="frameworks/av" name="android_frameworks_av" remote="AL" revision="lineage-20.0" clone-depth="1" />
 
-	 <!-- dolby -->
-         <project path="vendor/dolby/ds" name="dolby" remote="AL" revision="main" clone-depth="1" />
+	 <!-- Viper4A -->
+         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="anandhan" revision="master" />
 	
 </manifest>
