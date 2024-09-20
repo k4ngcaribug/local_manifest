@@ -6,8 +6,8 @@
 	<remote name="pos" fetch="https://github.com/PixelOS-AOSP" />
 		
         <!-- Trees -->
-        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AL" revision="14" clone-depth="1" />
-        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="AL" revision="14" clone-depth="1" />
+        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AL" revision="fourteen" clone-depth="1" />
+        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="AL" revision="fourteen" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="AL" revision="main" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
 	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
