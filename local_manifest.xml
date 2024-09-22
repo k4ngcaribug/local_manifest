@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="AL" fetch="https://github.com/ALprjkt" />
+        <remote name="AL" fetch="https://github.com/Nuraly86" />
 	<remote name="pos" fetch="https://github.com/PixelOS-AOSP" />
 		
         <!-- Trees -->
