@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="AL" fetch="https://github.com/Nuraly86" />
+        <remote name="AL" fetch="https://github.com/k4ngcaribug" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="AL" revision="fourteen" clone-depth="1" />
