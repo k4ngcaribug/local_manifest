@@ -10,6 +10,5 @@
         <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="AL" revision="main" clone-depth="1" />
 	<project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
 	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
-	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-21" clone-depth="1" />
 
 </manifest>
