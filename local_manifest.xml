@@ -3,11 +3,13 @@
 
         <!-- Remote -->
         <remote name="AL" fetch="https://github.com/k4ngcaribug" />
+	<remote name="neko" fetch="https://gitlab.com/nekoprjkt" />
 		
         <!-- Trees -->
         <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="AL" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="AL" revision="13" clone-depth="1" />
         <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="AL" revision="main" clone-depth="1" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
-
+        <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="neko" revision="17"  clone-depth="1" />
+	
 </manifest>
