@@ -17,11 +17,11 @@
 	<project path="vendor/dolby/ds" name="vendor_extra" remote="AL" revision="dolby" clone-depth="1" />
 
 	<!-- remove-project -->
-	<remove-project name="DerpFest-AOSP/frameworks_av" />
-	<remove-project name="DerpFest-AOSP/frameworks_base" />
-	<remove-project name="DerpFest-AOSP/packages_apps_Settings" />
-	<remove-project name="DerpFest-AOSP/packages_apps_DerpSpace" />
-	<remove-project name="DerpFest-AOSP/vendor_derp" />
+	<remove-project name="frameworks_av" />
+	<remove-project name="frameworks_base" />
+	<remove-project name="packages_apps_Settings" />
+	<remove-project name="packages_apps_DerpSpace" />
+	<remove-project name="vendor_derp" />
 
 	<!-- Mod Project -->
 	<project path="frameworks/av" name="derp_frameworks_av" remote="AL" revision="13" clone-depth="1" />
