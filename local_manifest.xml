@@ -5,8 +5,6 @@
         <remote name="AL" fetch="https://github.com/k4ngcaribug" />
 	<remote name="neko" fetch="https://gitlab.com/nekoprjkt" />
 	<remote name="cam" fetch="https://github.com/ArrowOS-Devices" />
-        <remote name="key" fetch="https://gitea.com/ArrowOS-T" />
-	<remote name="anu" fetch="https://github.com/ArrowOS-T"
 		
         <!-- Trees -->
         <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="AL" revision="13" clone-depth="1" />
@@ -33,7 +31,5 @@
 	<project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" remote="AL" revision="13" clone-depth="1" />
 	<project path="vendor/derp" name="vendor_derp" remote="AL" revision="13" clone-depth="1" />
 	<project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="AL" revision="13" clone-depth="1" />
-	<project path="vendor/certification" name="android_vendor_certification" remote="key" revision="main" clone-depth="1" />
-	<project path="external/bouncycastle" name=" android_external_bouncycastle" remote="anu" revision="arrow-13.1" clone-depth="1" />
 	
 </manifest>
