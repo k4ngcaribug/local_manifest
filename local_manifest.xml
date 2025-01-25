@@ -22,7 +22,6 @@
 	<remove-project name="packages_apps_Settings" />
 	<remove-project name="packages_apps_DerpSpace" />
 	<remove-project name="vendor_derp" />
-	<remove-project name="device_derp_sepolicy" />
 
 	<!-- Mod Project -->
 	<project path="frameworks/av" name="derp_frameworks_av" remote="AL" revision="13" clone-depth="1" />
@@ -30,6 +29,5 @@
 	<project path="packages/apps/Settings" name="derp_packages_apps_Settings" remote="AL" revision="13" clone-depth="1" />
 	<project path="packages/apps/DerpSpace" name="packages_apps_DerpSpace" remote="AL" revision="13" clone-depth="1" />
 	<project path="vendor/derp" name="vendor_derp" remote="AL" revision="13" clone-depth="1" />
-	<project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="AL" revision="13" clone-depth="1" />
 	
 </manifest>
