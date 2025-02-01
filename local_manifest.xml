@@ -10,7 +10,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="AL" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="AL" revision="13" clone-depth="1" />
-        <project path="kernel/xiaomi/ginkgo" name=" android_kernel_xiaomi_ginkgo" remote="kernel" revision="fourteen/main" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="kernel" revision="fourteen/main" clone-depth="1" />
 	<project path="vendor/extra" name="vendor_extra" remote="AL" revision="ten" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="neko" revision="main" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-20" clone-depth="1" />
