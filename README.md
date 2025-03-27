@@ -5,4 +5,4 @@ git clone -b master https://github.com/k4ngcaribug/local_manifest --depth=1 .rep
 ```
 # Then to sync up:
 ```
-repo sync -c --force-sync
+repo sync -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
