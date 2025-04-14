@@ -5,5 +5,5 @@
         <remote name="AL" fetch="https://github.com/k4ngcaribug" />
 		
         <!-- Trees -->
-        <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="AL" revision="10" clone-depth="1" />
+        <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="AL" revision="los" clone-depth="1" />
 </manifest>
